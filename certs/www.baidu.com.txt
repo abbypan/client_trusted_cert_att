@@ -1,0 +1,450 @@
+
+Certificate ripper statistics:
+- Certificate count
+
+  * 4: https://www.baidu.com
+         [cn=baiducom_o=beijing-baidu-netcom-science-technology-co_-ltd_l=beijing_st=beijing_c=cn]
+         [cn=globalsign-rsa-ov-ssl-ca-2018_o=globalsign-nv-sa_c=be]
+         [cn=globalsign_o=globalsign_ou=globalsign-root-ca---r3]
+         [cn=globalsign-root-ca_ou=root-ca_o=globalsign-nv-sa_c=be]
+
+Certificates for url = https://www.baidu.com
+
+[
+[
+  Version: V3
+  Subject: CN=baidu.com, O="Beijing Baidu Netcom Science Technology Co., Ltd", L=beijing, ST=beijing, C=CN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 22943972141129218273463241447116381770089270854537442308083081361320209018936360080745206594460397244069334081731261674797287927950360649843953286496113104234290006691840988794590756852347839162519858800373890796915156738571671207477551450398390596811259719157842620865920572333853700320587081895115675295752201668184969848880387490194443427835457761759111490917306786765598972947237472627363396736328399738069398010610615283457461841646684164406425771427656087598671248603006266849585794944596926887801649432098950076500369746086787369427406405810009608265038773403070577009621896810087449625205031486346569471191151
+  public exponent: 65537
+  Validity: [From: Mon Jul 08 01:41:02 GMT 2024,
+               To: Sat Aug 09 01:41:01 GMT 2025]
+  Issuer: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+  SerialNumber: [    4e4003a6 5eb681f8 7f4bd8eb]
+
+Certificate Extensions: 10
+[1]: ObjectId: 1.3.6.1.4.1.11129.2.4.2 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 82 01 6F 04 82 01 6B   01 69 00 76 00 AF 18 1A  ...o...k.i.v....
+0010: 28 D6 8C A3 E0 A9 8A 4C   9C 67 AB 09 F8 BB BC 22  (......L.g....."
+0020: BA AE BC B1 38 A3 A1 9D   D3 F9 B6 03 0D 00 00 01  ....8...........
+0030: 90 90 00 6C F3 00 00 04   03 00 47 30 45 02 20 5C  ...l......G0E. \
+0040: 05 E4 97 3E CF 22 05 1A   7A 71 72 1C FD 7D 8D 6A  ...>."..zqr....j
+0050: CE 5A A0 FE 85 6B B3 69   E7 BB 17 29 06 EB 88 02  .Z...k.i...)....
+0060: 21 00 BB 7B 1C 0F AB B9   D5 53 8F FF D6 8C 4A A4  !........S....J.
+0070: 76 C8 A1 D9 2D B1 F0 16   8B 3D 53 B0 33 49 D2 C8  v...-....=S.3I..
+0080: 65 AF 00 76 00 12 F1 4E   34 BD 53 72 4C 84 06 19  e..v...N4.SrL...
+0090: C3 8F 3F 7A 13 F8 E7 B5   62 87 88 9C 6D 30 05 84  ..?z....b...m0..
+00A0: EB E5 86 26 3A 00 00 01   90 90 00 6D E2 00 00 04  ...&:......m....
+00B0: 03 00 47 30 45 02 20 10   58 43 A3 4F ED 55 03 81  ..G0E. .XC.O.U..
+00C0: F9 2D 59 18 39 43 14 F6   DD 00 1B 4E A6 28 BE D5  .-Y.9C.....N.(..
+00D0: 76 0F D3 BC 41 CD 13 02   21 00 D8 FE FE E3 81 2F  v...A...!....../
+00E0: 43 96 9D C0 BD 72 E7 AA   32 C6 FF E6 F8 6B A3 7A  C....r..2....k.z
+00F0: 26 BB C2 9A 3B F9 76 E1   BF A3 00 77 00 0D E1 F2  &...;.v....w....
+0100: 30 2B D3 0D C1 40 62 12   09 EA 55 2E FC 47 74 7C  0+...@b...U..Gt.
+0110: B1 D7 E9 30 EF 0E 42 1E   B4 7E 4E AA 34 00 00 01  ...0..B...N.4...
+0120: 90 90 00 6C BE 00 00 04   03 00 48 30 46 02 21 00  ...l......H0F.!.
+0130: D4 EC 7C 6D C7 87 3D A7   D2 5D F9 CA FE 0C 23 2D  ...m..=..]....#-
+0140: C9 16 12 73 46 FC 72 4B   42 71 B3 26 B4 31 3D CA  ...sF.rKBq.&.1=.
+0150: 02 21 00 8A 49 77 8C 9B   EE 3B 71 9D A1 02 F2 82  .!..Iw...;q.....
+0160: D6 0E EB 21 6C AD 6F D0   12 2E 66 EE 98 AD 0B EC  ...!l.o...f.....
+0170: 7F 59 D0                                           .Y.
+
+
+[2]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: caIssuers
+   accessLocation: URIName: http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt
+, 
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.globalsign.com/gsrsaovsslca2018
+]
+]
+
+[3]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: F8 EF 7F F2 CD 78 67 A8   DE 6F 8F 24 8D 88 F1 87  .....xg..o.$....
+0010: 03 02 B3 EB                                        ....
+]
+]
+
+[4]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[5]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.globalsign.com/gsrsaovsslca2018.crl]
+]]
+
+[6]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.3.6.1.4.1.4146.1.20]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 26 68 74 74 70 73 3A   2F 2F 77 77 77 2E 67 6C  .&https://www.gl
+0010: 6F 62 61 6C 73 69 67 6E   2E 63 6F 6D 2F 72 65 70  obalsign.com/rep
+0020: 6F 73 69 74 6F 72 79 2F                            ository/
+
+]]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+]
+
+[7]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[8]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+[9]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: baidu.com
+  DNSName: baifubao.com
+  DNSName: www.baidu.cn
+  DNSName: www.baidu.com.cn
+  DNSName: mct.y.nuomi.com
+  DNSName: apollo.auto
+  DNSName: dwz.cn
+  DNSName: *.baidu.com
+  DNSName: *.baifubao.com
+  DNSName: *.baidustatic.com
+  DNSName: *.bdstatic.com
+  DNSName: *.bdimg.com
+  DNSName: *.hao123.com
+  DNSName: *.nuomi.com
+  DNSName: *.chuanke.com
+  DNSName: *.trustgo.com
+  DNSName: *.bce.baidu.com
+  DNSName: *.eyun.baidu.com
+  DNSName: *.map.baidu.com
+  DNSName: *.mbd.baidu.com
+  DNSName: *.fanyi.baidu.com
+  DNSName: *.baidubce.com
+  DNSName: *.mipcdn.com
+  DNSName: *.news.baidu.com
+  DNSName: *.baidupcs.com
+  DNSName: *.aipage.com
+  DNSName: *.aipage.cn
+  DNSName: *.bcehost.com
+  DNSName: *.safe.baidu.com
+  DNSName: *.im.baidu.com
+  DNSName: *.baiducontent.com
+  DNSName: *.dlnel.com
+  DNSName: *.dlnel.org
+  DNSName: *.dueros.baidu.com
+  DNSName: *.su.baidu.com
+  DNSName: *.91.com
+  DNSName: *.hao123.baidu.com
+  DNSName: *.apollo.auto
+  DNSName: *.xueshu.baidu.com
+  DNSName: *.bj.baidubce.com
+  DNSName: *.gz.baidubce.com
+  DNSName: *.smartapps.cn
+  DNSName: *.bdtjrcv.com
+  DNSName: *.hao222.com
+  DNSName: *.haokan.com
+  DNSName: *.pae.baidu.com
+  DNSName: *.vd.bdstatic.com
+  DNSName: *.cloud.baidu.com
+  DNSName: click.hm.baidu.com
+  DNSName: log.hm.baidu.com
+  DNSName: cm.pos.baidu.com
+  DNSName: wn.pos.baidu.com
+  DNSName: update.pan.baidu.com
+]
+
+[10]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: AD CA 00 54 CA D8 E5 94   B6 8F 83 DA 27 80 28 4E  ...T........'.(N
+0010: 59 24 3B 18                                        Y$;.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: A1 F4 37 DE C0 2D 35 DB   FF 9F 1D 9A 66 4A 90 A7  ..7..-5.....fJ..
+0010: CB E8 77 FF E0 A5 01 9F   1C 25 53 BE 2C 29 98 CF  ..w......%S.,)..
+0020: DA FA 6E 4C A1 70 5A AE   27 9A 94 A7 2A 16 F0 06  ..nL.pZ.'...*...
+0030: 2D 53 4A 14 16 5A 87 EB   32 C8 CA E8 D6 FB B9 6A  -SJ..Z..2......j
+0040: C0 5C 41 E8 DB 17 28 A7   70 04 A9 8C 6E 69 D9 AF  .\A...(.p...ni..
+0050: 61 5C 6B 97 FE 4E DC 03   FC 60 C9 80 6F DE 82 BE  a\k..N...`..o...
+0060: DF 23 5B BC D7 DE 23 F4   A1 25 F1 C2 BC 16 E8 E6  .#[...#..%......
+0070: F9 4B 28 5A 49 44 CD DD   48 B7 DC 64 2D AC C9 47  .K(ZID..H..d-..G
+0080: FE 92 C1 B8 52 47 89 3A   D7 4A 6F 8F CA D0 AD 2E  ....RG.:.Jo.....
+0090: 30 01 EC 2E 60 50 DA 0C   E7 EA B0 7B 43 22 CC 75  0...`P......C".u
+00A0: B5 97 C8 7E 80 7F 3B 5C   06 59 94 09 53 63 3D C0  ......;\.Y..Sc=.
+00B0: 2F 2E 62 AD 23 43 64 34   31 02 57 BB 22 73 D3 83  /.b.#Cd41.W."s..
+00C0: 05 88 6A CF 01 2D 54 93   C9 96 77 C3 3E DE 9E B9  ..j..-T...w.>...
+00D0: 5F 2E 22 01 FF 2E 5B 3B   35 33 E7 DC C0 11 3C 04  _."...[;53....<.
+00E0: D0 60 86 44 20 13 E1 52   52 C9 5D 9B EE 59 04 26  .`.D ..RR.]..Y.&
+00F0: B3 53 48 E8 26 CC 33 95   D5 A2 B1 73 0B 4D A8 08  .SH.&.3....s.M..
+
+]
+
+<========== Next certificate for https://www.baidu.com ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 21126566361448906107436419936616456930503766795295011397390099377214532594339540630127839983694000880957855429090662736543459885979148095011845773324878609805910592394098822605447205094595434773457756619595496551339815291517938821967518409268674135327890982411359059853554206557405488402844883476783910436071263072611374930015184977470928360416482680275213210359134955800600416298955663157681791825971806614492086218468021537113159139781585498849221181678353105886727402106622369312650411327690533152044002528504537929182833153678424044530351812527294481555102466085982300518657855234182316103558953341555178558367567
+  public exponent: 65537
+  Validity: [From: Wed Nov 21 00:00:00 GMT 2018,
+               To: Tue Nov 21 00:00:00 GMT 2028]
+  Issuer: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+  SerialNumber: [    01ee5f22 1dfc623b d4333a85 57]
+
+Certificate Extensions: 7
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp2.globalsign.com/rootr3
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 8F F0 4B 7F A8 2E 45 24   AE 4D 50 FA 63 9A 8B DE  ..K...E$.MP.c...
+0010: E2 DD 1B BC                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.globalsign.com/root-r3.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 26 68 74 74 70 73 3A   2F 2F 77 77 77 2E 67 6C  .&https://www.gl
+0010: 6F 62 61 6C 73 69 67 6E   2E 63 6F 6D 2F 72 65 70  obalsign.com/rep
+0020: 6F 73 69 74 6F 72 79 2F                            ository/
+
+]]  ]
+]
+
+[6]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[7]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: F8 EF 7F F2 CD 78 67 A8   DE 6F 8F 24 8D 88 F1 87  .....xg..o.$....
+0010: 03 02 B3 EB                                        ....
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 99 90 C8 2D 5F 42 8A D4   0B 66 DB 98 03 73 11 D4  ...-_B...f...s..
+0010: 88 86 52 28 53 8A FB AD   DF FD 73 8E 3A 67 04 DB  ..R(S.....s.:g..
+0020: C3 53 14 70 14 09 7C C3   E0 F8 D7 1C 98 1A A2 C4  .S.p............
+0030: 3E DB E9 00 E3 CA 70 B2   F1 22 30 21 56 DB D3 AD  >.....p.."0!V...
+0040: 79 5E 81 58 0B 6D 14 80   35 F5 6F 5D 1D EB 9A 47  y^.X.m..5.o]...G
+0050: 05 FF 59 8D 00 B1 40 DA   90 98 96 1A BA 6C 6D 7F  ..Y...@......lm.
+0060: 8C F5 B3 80 DF 8C 64 73   36 96 79 79 69 74 EA BF  ......ds6.yyit..
+0070: F8 9E 01 8F A0 95 69 8D   E9 84 BA E9 E5 D4 88 38  ......i........8
+0080: DB 78 3B 98 D0 36 7B 29   B0 D2 52 18 90 DE 52 43  .x;..6.)..R...RC
+0090: 00 AE 6A 27 C8 14 9E 86   95 AC E1 80 31 30 7E 9A  ..j'........10..
+00A0: 25 BB 8B AC 04 23 A6 99   00 E8 F1 D2 26 EC 0F 7E  %....#......&...
+00B0: 3B 8A 2B 92 38 13 1D 8F   86 CD 86 52 47 E6 34 7C  ;.+.8......RG.4.
+00C0: 5B A4 02 3E 8A 61 7C 22   76 53 5A 94 53 33 86 B8  [..>.a."vSZ.S3..
+00D0: 92 A8 72 AF A1 F9 52 87   1F 31 A5 FC B0 81 57 2F  ..r...R..1....W/
+00E0: CD F4 CE DC F6 24 CF A7   E2 34 90 68 9D FE AA F1  .....$...4.h....
+00F0: A9 9A 12 CC 9B C0 C6 C3   A8 A5 B0 21 7E DE 48 F6  ...........!..H.
+
+]
+
+<========== Next certificate for https://www.baidu.com ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 25771087976912555723460212693216601925287656672099574380533157801820567635400330495318064683029682606760477160506218970720338800587443585296266118036565004153948044178260380236413918985408716154608758736787607582350957284195312277745218664193435715755772959662764708811669980078868481836536347430274283201816955267999001001617683902314532053265924195885946449299342950404904316651708935807241703458739944245807022522522848310429030824634472745422066242974006171020066937321809681255299835554409056507494552983492594407443801730757040541727921963811124831850879369528892990930036427214504345420213402042205700996039191
+  public exponent: 65537
+  Validity: [From: Wed Sep 19 00:00:00 GMT 2018,
+               To: Fri Jan 28 12:00:00 GMT 2028]
+  Issuer: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  SerialNumber: [    01ee5f16 9dff9735 2b6465d6 6a]
+
+Certificate Extensions: 7
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.globalsign.com/rootr1
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 60 7B 66 1A 45 0D 97 CA   89 50 2F 7D 04 CD 34 A8  `.f.E....P/...4.
+0010: FF FC FD 4B                                        ...K
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.globalsign.com/root.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 26 68 74 74 70 73 3A   2F 2F 77 77 77 2E 67 6C  .&https://www.gl
+0010: 6F 62 61 6C 73 69 67 6E   2E 63 6F 6D 2F 72 65 70  obalsign.com/rep
+0020: 6F 73 69 74 6F 72 79 2F                            ository/
+
+]]  ]
+]
+
+[6]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[7]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 8F F0 4B 7F A8 2E 45 24   AE 4D 50 FA 63 9A 8B DE  ..K...E$.MP.c...
+0010: E2 DD 1B BC                                        ....
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 23 70 E9 CF E2 BE F5 59   AE 94 42 6F C4 43 33 AA  #p.....Y..Bo.C3.
+0010: CD 3F 3A B9 64 17 F2 62   06 4B 48 F1 40 88 06 17  .?:.d..b.KH.@...
+0020: A1 FE AB D1 5F 3C C6 33   F2 F3 8E DD 1F 1D 3E CC  ...._<.3......>.
+0030: 1A 60 99 82 0B AC C7 FC   7E 9A 87 2A A5 7D 0F A6  .`.........*....
+0040: 57 EE AC 3B 6A 85 D6 DE   BD 40 63 F8 AD A6 C8 88  W..;j....@c.....
+0050: B0 12 FC F6 41 DF 0F 09   97 1E 38 EA 53 9F BE 05  ....A.....8.S...
+0060: F4 3E EA D3 9F 50 12 76   BE 09 8B C2 0B 48 7D 1E  .>...P.v.....H..
+0070: 2E 51 F6 8D 53 D3 AB 1F   40 1B 8A 8E ED 7D FB 4F  .Q..S...@......O
+0080: 79 56 70 5F 0C D3 8E 1B   B3 A7 70 0D 37 2B 97 95  yVp_......p.7+..
+0090: AB DA E0 12 6B 1C 40 CE   C5 C7 7E ED C2 62 58 EC  ....k.@......bX.
+00A0: 77 ED 73 22 C2 8A F5 86   43 88 AD EA 13 6E FD D8  w.s"....C....n..
+00B0: FE 42 2F B9 7D 5E AD 18   EF 94 90 CA 3D 27 AB 26  .B/..^......='.&
+00C0: 94 99 75 C7 CB D3 7B F7   CA 4C D3 AF 51 21 92 5B  ..u......L..Q!.[
+00D0: 84 7D 2B 9F 15 3F 74 CB   51 E8 9E 83 0E 16 6F 1B  ..+..?t.Q.....o.
+00E0: E7 46 CE 23 BD F9 E4 A2   8B D2 39 6B AA 79 1C 91  .F.#......9k.y..
+00F0: 2C E2 61 24 2D 8E 2A 48   70 90 C4 1E C5 E8 E0 70  ,.a$-.*Hp......p
+
+]
+
+<========== Next certificate for https://www.baidu.com ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 27527298331346624659307815003393871405544020859223571253338520804765223430982458246098772321151941672961640627675186276205051526242643378100158885513217742058056466168392650055013100104849176312294167242041140310435772026717601763184706480259485212806902223894888566729634266984619221168862421838192203495151893762216777748330129909588210203299778581898175320882908371930984451809054509645379277309791084909705758372477320893336152882629891014286744815684371510751674825920204180490258122986862539585201934155220945732937830308834387108046657005363452071776396707181283143463213972159925612976006433949563180335468751
+  public exponent: 65537
+  Validity: [From: Tue Sep 01 12:00:00 GMT 1998,
+               To: Fri Jan 28 12:00:00 GMT 2028]
+  Issuer: CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE
+  SerialNumber: [    04000000 0001154b 5ac394]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[2]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 60 7B 66 1A 45 0D 97 CA   89 50 2F 7D 04 CD 34 A8  `.f.E....P/...4.
+0010: FF FC FD 4B                                        ...K
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: D6 73 E7 7C 4F 76 D0 8D   BF EC BA A2 BE 34 C5 28  .s..Ov.......4.(
+0010: 32 B5 7C FC 6C 9C 2C 2B   BD 09 9E 53 BF 6B 5E AA  2...l.,+...S.k^.
+0020: 11 48 B6 E5 08 A3 B3 CA   3D 61 4D D3 46 09 B3 3E  .H......=aM.F..>
+0030: C3 A0 E3 63 55 1B F2 BA   EF AD 39 E1 43 B9 38 A3  ...cU.....9.C.8.
+0040: E6 2F 8A 26 3B EF A0 50   56 F9 C6 0A FD 38 CD C4  ./.&;..PV....8..
+0050: 0B 70 51 94 97 98 04 DF   C3 5F 94 D5 15 C9 14 41  .pQ......_.....A
+0060: 9C C4 5D 75 64 15 0D FF   55 30 EC 86 8F FF 0D EF  ..]ud...U0......
+0070: 2C B9 63 46 F6 AA FC DF   BC 69 FD 2E 12 48 64 9A  ,.cF.....i...Hd.
+0080: E0 95 F0 A6 EF 29 8F 01   B1 15 B5 0C 1D A5 FE 69  .....).........i
+0090: 2C 69 24 78 1E B3 A7 1C   71 62 EE CA C8 97 AC 17  ,i$x....qb......
+00A0: 5D 8A C2 F8 47 86 6E 2A   C4 56 31 95 D0 67 89 85  ]...G.n*.V1..g..
+00B0: 2B F9 6C A6 5D 46 9D 0C   AA 82 E4 99 51 DD 70 B7  +.l.]F......Q.p.
+00C0: DB 56 3D 61 E4 6A E1 5C   D6 F6 FE 3D DE 41 CC 07  .V=a.j.\...=.A..
+00D0: AE 63 52 BF 53 53 F4 2B   E9 C7 FD B6 F7 82 5F 85  .cR.SS.+......_.
+00E0: D2 41 18 DB 81 B3 04 1C   C5 1F A4 80 6F 15 20 C9  .A..........o. .
+00F0: DE 0C 88 0A 1D D6 66 55   E2 FC 48 C9 29 26 69 E0  ......fU..H.)&i.
+
+]
+
+

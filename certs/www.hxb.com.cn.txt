@@ -1,0 +1,362 @@
+
+Certificate ripper statistics:
+- Certificate count
+
+  * 3: https://www.hxb.com.cn
+         [cn=wwwhxbcomcn_o=华夏银行股份有限公司_l=北京_st=北京_c=cn]
+         [cn=cfca-ov-oca_o=china-financial-certification-authority_c=cn]
+         [cn=cfca-ev-root_o=china-financial-certification-authority_c=cn]
+
+Certificates for url = https://www.hxb.com.cn
+
+[
+[
+  Version: V3
+  Subject: CN=www.hxb.com.cn, O=华夏银行股份有限公司, L=北京, ST=北京, C=CN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 25287555278887938237001440723858614677139828127077134822889428756910948597813487416116219142080406830241431163009348611395369018756115198484606988805296065420997372884554680996052564861010692779257990822999416908407232071899568507215835201598268142734007510819737838973332443650107589969171778439759683717351683803837887349272019087635078826481406624409514376453181858467740955430654452154207691333804111734926139233284444522982399219701612974328628446248058675766567503460842795344594368547627844669529689793648562315220456001569071366174447992309103207644146510340368352222151423041205913319195008841761805394498059
+  public exponent: 65537
+  Validity: [From: Sat Mar 23 10:24:42 GMT 2024,
+               To: Fri Apr 11 07:56:32 GMT 2025]
+  Issuer: CN=CFCA OV OCA, O=China Financial Certification Authority, C=CN
+  SerialNumber: [    201501b7 36bdace3 37326ead 32ff2c38]
+
+Certificate Extensions: 10
+[1]: ObjectId: 1.3.6.1.4.1.11129.2.4.2 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 82 02 5E 04 82 02 5A   02 58 00 77 00 4E 75 A3  ...^...Z.X.w.Nu.
+0010: 27 5C 9A 10 C3 38 5B 6C   D4 DF 3F 52 EB 1D F0 E0  '\...8[l..?R....
+0020: 8E 1B 8D 69 C0 B1 FA 64   B1 62 9A 39 DF 00 00 01  ...i...d.b.9....
+0030: 8E 6A D7 5F B2 00 00 04   03 00 48 30 46 02 21 00  .j._......H0F.!.
+0040: A2 4B 5C 1F CA BC 34 EC   B6 4C C1 1E C6 34 98 80  .K\...4..L...4..
+0050: D0 41 CA BD 8E E3 05 7F   8C BE 7B CA 53 67 6E 42  .A..........SgnB
+0060: 02 21 00 92 0C CE 8A 75   7B 73 30 11 19 94 12 31  .!.....u.s0....1
+0070: D3 7C 10 F1 6E E3 F2 0A   C8 BD 72 A9 9D 4C F9 15  ....n.....r..L..
+0080: 0A 3C 12 00 75 00 CC FB   0F 6A 85 71 09 65 FE 95  .<..u....j.q.e..
+0090: 9B 53 CE E9 B2 7C 22 E9   85 5C 0D 97 8D B6 A9 7E  .S...."..\......
+00A0: 54 C0 FE 4C 0D B0 00 00   01 8E 6A D7 5F DF 00 00  T..L......j._...
+00B0: 04 03 00 46 30 44 02 20   5E 9A 5F 44 60 D5 6D 96  ...F0D. ^._D`.m.
+00C0: 96 C3 7D 4B 0F B3 4F 76   88 10 4C 46 98 80 2D 1E  ...K..Ov..LF..-.
+00D0: 29 99 3A BE B0 53 2B 00   02 20 39 6B A0 81 5B D6  ).:..S+.. 9k..[.
+00E0: B5 70 93 42 E9 CC 62 A1   C7 4A 8F A0 B2 73 D0 B7  .p.B..b..J...s..
+00F0: 99 3D 34 A9 F5 D9 57 C6   EE DD 00 77 00 E6 D2 31  .=4...W....w...1
+0100: 63 40 77 8C C1 10 41 06   D7 71 B9 CE C1 D2 40 F6  c@w...A..q....@.
+0110: 96 84 86 FB BA 87 32 1D   FD 1E 37 8E 50 00 00 01  ......2...7.P...
+0120: 8E 6A D7 5F F5 00 00 04   03 00 48 30 46 02 21 00  .j._......H0F.!.
+0130: E2 EA F5 71 D6 B2 07 B2   9F EA A4 A4 34 EA 30 69  ...q........4.0i
+0140: A5 60 97 B5 94 62 75 0D   5D 45 A0 30 72 BD 9B D7  .`...bu.]E.0r...
+0150: 02 21 00 E5 01 65 43 C8   42 94 F9 69 88 D8 8A 6D  .!...eC.B..i...m
+0160: 86 98 B7 CC 08 46 99 FE   5D 92 C1 C1 65 F5 CF B3  .....F..]...e...
+0170: 98 DF 22 00 76 00 7D 59   1E 12 E1 78 2A 7B 1C 61  ..".v..Y...x*..a
+0180: 67 7C 5E FD F8 D0 87 5C   14 A0 4E 95 9E B9 03 2F  g.^....\..N..../
+0190: D9 0E 8C 2E 79 B8 00 00   01 8E 6A D7 60 6E 00 00  ....y.....j.`n..
+01A0: 04 03 00 47 30 45 02 20   5F 73 67 CE 94 E0 61 7E  ...G0E. _sg...a.
+01B0: C6 35 21 1E 8B A6 F1 C2   2C 1D 1D 45 DD 7F 6A 56  .5!.....,..E..jV
+01C0: 99 E2 6E 84 6E 5A 27 57   02 21 00 CB A6 41 2E 29  ..n.nZ'W.!...A.)
+01D0: A0 B7 0D 2D 32 43 FD C7   F7 E3 7C 6E D3 38 54 D2  ...-2C.....n.8T.
+01E0: 09 26 09 D2 82 25 BB 14   4E 0F C3 00 75 00 55 81  .&...%..N...u.U.
+01F0: D4 C2 16 90 36 01 4A EA   0B 9B 57 3C 53 F0 C0 E4  ....6.J...W<S...
+0200: 38 78 70 25 08 17 2F A3   AA 1D 07 13 D3 0C 00 00  8xp%../.........
+0210: 01 8E 6A D7 60 4C 00 00   04 03 00 46 30 44 02 20  ..j.`L.....F0D. 
+0220: 5D B0 7D 9C DA ED 23 38   D7 56 BF 74 FA B3 58 2A  ].....#8.V.t..X*
+0230: 1B F1 93 F6 7B 11 56 8A   50 CB C1 59 90 AD 1A 70  ......V.P..Y...p
+0240: 02 20 4F 5D 1F F2 FD 0A   6C A6 0B 6D 70 AC B7 A4  . O]....l..mp...
+0250: 5E 31 FA 95 5E 2B F7 D3   96 B5 AB 98 6B EE A9 3B  ^1..^+......k..;
+0260: 10 DD                                              ..
+
+
+[2]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.cfca.com.cn/ocsp
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: http://gtc.cfca.com.cn/ovoca/ovoca.cer
+]
+]
+
+[3]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 66 B3 EF FB 54 95 87 E9   AC A5 96 56 AE E6 7D ED  f...T......V....
+0010: 3A D0 43 D1                                        :.C.
+]
+]
+
+[4]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[5]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.cfca.com.cn/OVOCA/RSA/allCRL.crl]
+]]
+
+[6]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 23 68 74 74 70 3A 2F   2F 77 77 77 2E 63 66 63  .#http://www.cfc
+0010: 61 2E 63 6F 6D 2E 63 6E   2F 75 73 2F 75 73 2D 31  a.com.cn/us/us-1
+0020: 32 2E 68 74 6D                                     2.htm
+
+]]  ]
+]
+
+[7]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  clientAuth
+  serverAuth
+]
+
+[8]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+[9]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: www.hxb.com.cn
+]
+
+[10]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: FF 5E 37 84 C3 15 58 65   E8 9E CD D1 C5 2A 7E 58  .^7...Xe.....*.X
+0010: 2E CB FC B0                                        ....
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 0C 45 FF 64 FB 0D 26 9A   12 00 65 A9 0B 65 C2 2B  .E.d..&...e..e.+
+0010: DE 31 D5 84 48 38 93 06   B9 3F 1C D5 FF 25 21 9E  .1..H8...?...%!.
+0020: 03 CB 53 AF 15 BA 94 D3   2E 38 05 76 67 D6 2E E9  ..S......8.vg...
+0030: 44 D2 BD 09 DA 1B AC 36   D0 0E 9A 4F 08 50 B7 16  D......6...O.P..
+0040: BC EB 47 94 A6 82 26 62   12 1D 47 FC E3 7B 8F 56  ..G...&b..G....V
+0050: 87 66 0D 13 01 F6 6C D7   AB 6A CE 88 DB 90 53 6D  .f....l..j....Sm
+0060: 30 8E AE 83 D1 68 70 03   86 58 4D FC 1F 35 4F 87  0....hp..XM..5O.
+0070: B8 D4 7C BA 1F FD AD E7   66 F8 22 9D FE 75 93 97  ........f."..u..
+0080: 85 A8 BC 3B DB A7 11 B7   3D AA 54 7C 86 DC DB A7  ...;....=.T.....
+0090: EE B9 37 4A 85 2B 7C F7   38 E6 93 3C C8 A9 E8 98  ..7J.+..8..<....
+00A0: 66 BD 5D 32 30 7E 95 C7   18 14 16 5E F1 93 1E 06  f.]20......^....
+00B0: 76 09 1C A2 03 B8 61 A3   ED CA 8F F0 52 BF FC F6  v.....a.....R...
+00C0: 7B F3 63 3C AB D7 2F D8   19 0F A6 D6 60 3A 9C FB  ..c<../.....`:..
+00D0: 85 81 9F 13 48 EC 44 22   90 93 B7 C2 9B 6C 1F A6  ....H.D".....l..
+00E0: B7 52 83 9A DC 14 A6 94   D9 35 D9 0C 56 4F 51 08  .R.......5..VOQ.
+00F0: 41 B0 EF 9F 50 57 71 77   8F C8 31 E0 77 BD 8A CF  A...PWqw..1.w...
+
+]
+
+<========== Next certificate for https://www.hxb.com.cn ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=CFCA OV OCA, O=China Financial Certification Authority, C=CN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 29267339203208317949176684066622600662043055974778926896568921551650263073547234737674425111391940708242658050868742135600873331129747403586841797752705297134482927288042290969414784394732886836656515430573413730322094422886518694440496619260185286284477508737287682411193250925144087697202503922688202876057397867436554902472154362438456156349969022799269625266261090388234193707408346891512668842375094478959210373790197784245940005119781307357372365271212152373590559652548076746380815533098369401822029518729350740372199553738167131334865517121888502220442145924006866337460723514119792002707874994155025007681327
+  public exponent: 65537
+  Validity: [From: Wed Mar 25 02:02:56 GMT 2015,
+               To: Tue Dec 25 02:02:56 GMT 2029]
+  Issuer: CN=CFCA EV ROOT, O=China Financial Certification Authority, C=CN
+  SerialNumber: [    f9df6adf f564bea6 8b82]
+
+Certificate Extensions: 8
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.cfca.com.cn/ocsp
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: E3 FE 2D FD 28 D0 0B B5   BA B6 A2 C4 BF 06 AA 05  ..-.(...........
+0010: 8C 93 FB 2F                                        .../
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.cfca.com.cn/evrca/RSA/crl1.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 23 68 74 74 70 3A 2F   2F 77 77 77 2E 63 66 63  .#http://www.cfc
+0010: 61 2E 63 6F 6D 2E 63 6E   2F 75 73 2F 75 73 2D 31  a.com.cn/us/us-1
+0020: 32 2E 68 74 6D                                     2.htm
+
+]]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  clientAuth
+  emailProtection
+  serverAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[8]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 66 B3 EF FB 54 95 87 E9   AC A5 96 56 AE E6 7D ED  f...T......V....
+0010: 3A D0 43 D1                                        :.C.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: CA 11 1F 2A 70 19 99 18   E1 BC 18 E2 7A EF 45 56  ...*p.......z.EV
+0010: 39 28 37 52 8B CE A1 CE   FF C7 3D A6 13 E7 A7 C8  9(7R......=.....
+0020: 47 12 C2 7F F4 42 B2 FC   0B 90 D2 03 A9 CC BC 13  G....B..........
+0030: 2B 09 61 32 B5 83 E8 7C   64 14 5D 3C 2D 96 EE FC  +.a2....d.]<-...
+0040: 18 BC 58 36 7D C0 FD 1B   73 73 32 7E FC 15 C8 86  ..X6....ss2.....
+0050: 87 B7 68 E4 F8 B5 0F B6   B3 DB EB 15 17 C8 5E CE  ..h...........^.
+0060: 02 92 6A 87 85 F6 12 BC   0A E8 91 D6 B2 62 60 5D  ..j..........b`]
+0070: EF CA 6C 23 04 B9 2C 25   33 18 A4 A7 EF 2F 14 98  ..l#..,%3..../..
+0080: 08 28 C6 2C BB 46 DA D5   B7 97 35 C2 F2 72 7A E6  .(.,.F....5..rz.
+0090: 24 D5 9D 65 F0 C3 75 B3   33 EB 98 06 F8 1D 2F C3  $..e..u.3...../.
+00A0: AA 70 7E D2 A7 61 14 6B   DF 3B 2B FB 96 0E BF C2  .p...a.k.;+.....
+00B0: 52 00 90 DF 38 70 79 4A   34 2D C9 BF 21 47 68 22  R...8pyJ4-..!Gh"
+00C0: 00 CA 14 CF 82 35 1A C9   4B C1 28 52 BB 5F 03 7D  .....5..K.(R._..
+00D0: BA D2 17 97 62 F7 21 95   FB CD FC 46 4B F2 7D F9  ....b.!....FK...
+00E0: 97 8D C3 26 E5 40 A9 9D   FC C2 B2 74 9B BD 02 4E  ...&.@.....t...N
+00F0: BE 64 C2 CB 82 39 42 16   48 A1 24 89 FD 52 BF 0C  .d...9B.H.$..R..
+0100: D8 A4 22 83 3E D8 3C 35   48 26 33 AD 4B B9 63 39  ..".>.<5H&3.K.c9
+0110: 05 46 87 CF 0B 3D 49 D0   D5 F0 58 ED 1C 1A 81 F8  .F...=I...X.....
+0120: 9C 4B FC 5C 94 83 A7 69   78 68 C9 6C E0 EC 47 10  .K.\...ixh.l..G.
+0130: FD 3D 7F 3B 81 64 A4 CA   8A B8 EA DE 68 8E 4D 13  .=.;.d......h.M.
+0140: 18 C0 4F C7 0A 8B 3C 98   DB 07 0E 39 72 88 62 B8  ..O...<....9r.b.
+0150: B7 13 09 DB 9B ED 34 21   A6 18 6A 24 11 19 44 7A  ......4!..j$..Dz
+0160: A7 31 45 2B 17 45 31 B4   AD 0A D2 38 39 B3 7E 03  .1E+.E1....89...
+0170: DB 41 ED C9 C1 09 6E 2F   CF 7B 00 25 DF CE 82 62  .A....n/...%...b
+0180: C5 DF C5 D3 6B EF E4 9B   77 35 9D 03 9F 84 21 AC  ....k...w5....!.
+0190: EA 4C 76 85 E3 7F 0E 01   40 73 E3 FB 95 D3 9B A3  .Lv.....@s......
+01A0: F9 20 19 0B 51 EA DA F4   DA 0C 97 08 55 A7 2C CB  . ..Q.......U.,.
+01B0: 53 D3 E0 A8 34 E6 34 A3   74 FE 2D B1 2A 61 E2 8B  S...4.4.t.-.*a..
+01C0: 5B BA 76 F4 6F 6C 80 78   28 A8 B1 62 6D 63 4C 48  [.v.ol.x(..bmcLH
+01D0: A1 B5 42 F7 AF 92 18 D4   30 E0 FF 83 8F 1F FE 73  ..B.....0......s
+01E0: 12 62 C6 D4 FB EC 84 68   BB E3 BD 11 DB 6F 93 8D  .b.....h.....o..
+01F0: 20 F9 1C 13 6F 13 46 14   10 2A 60 CA 23 E0 D1 22   ...o.F..*`.#.."
+
+]
+
+<========== Next certificate for https://www.hxb.com.cn ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=CFCA EV ROOT, O=China Financial Certification Authority, C=CN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 4096 bits
+  params: null
+  modulus: 878612243481146963636014505972676338110202397525741688057493883961208794047206775496543491523307577778646778899181627917805165320600773725174113287303806808953458312059466386352630709834973967412698479990070142651054910057398206593715604089975541241547881565069248042428482660799281739361014339926751947591303713434760246360623432784197373505532101437887031590174264816864200956564029915056537787683808439774986485032372482918950007807241205018736711844987513209553405346627939847691928256711665335634658233626686650345603799257325662971824927790608585296979724426350504897008463963687092955442050183774047747415943460425107325435009482631535051629767076503799172064214758246453536703779959543063429018485685885555107952473452253008197728681584917726900105266881002301277260516915145936444296125901551315914058766021237493227275674001448717309434856331321724042943685376732007879289762540282949272869739397937159533529915177854982395749820979538925450722599277133678555576117212513536076765691844555808514907282134027654981240220504433659554262881491278391881229488909220895752271345449898805380818032141613301009813680280367306806866243190563579370939832297838500475173835749036686585742174734982122276019419471140070893246146282893
+  public exponent: 65537
+  Validity: [From: Wed Aug 08 03:07:01 GMT 2012,
+               To: Mon Dec 31 03:07:01 GMT 2029]
+  Issuer: CN=CFCA EV ROOT, O=China Financial Certification Authority, C=CN
+  SerialNumber: [    184accd6]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: E3 FE 2D FD 28 D0 0B B5   BA B6 A2 C4 BF 06 AA 05  ..-.(...........
+0010: 8C 93 FB 2F                                        .../
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E3 FE 2D FD 28 D0 0B B5   BA B6 A2 C4 BF 06 AA 05  ..-.(...........
+0010: 8C 93 FB 2F                                        .../
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 25 C6 BA 6B EB 87 CB DE   82 39 96 3D F0 44 A7 6B  %..k.....9.=.D.k
+0010: 84 73 03 DE 9D 2B 4F BA   20 7F BC 78 B2 CF 97 B0  .s...+O. ..x....
+0020: 1B 9C F3 D7 79 2E F5 48   B6 D2 FB 17 88 E6 D3 7A  ....y..H.......z
+0030: 3F ED 53 13 D0 E2 2F 6A   79 CB 00 23 28 E6 1E 37  ?.S.../jy..#(..7
+0040: 57 35 89 84 C2 76 4F 34   36 AD 67 C3 CE 41 06 88  W5...vO46.g..A..
+0050: C5 F7 EE D8 1A B8 D6 0B   7F 50 FF 93 AA 17 4B 8C  .........P....K.
+0060: EC ED 52 60 B2 A4 06 EA   4E EB F4 6B 19 FD EB F5  ..R`....N..k....
+0070: 1A E0 25 2A 9A DC C7 41   36 F7 C8 74 05 84 39 95  ..%*...A6..t..9.
+0080: 39 D6 0B 3B A4 27 FA 08   D8 5C 1E F8 04 60 52 11  9..;.'...\...`R.
+0090: 28 28 03 FF EF 53 66 00   A5 4A 34 16 66 7C FD 09  ((...Sf..J4.f...
+00A0: A4 AE 9E 67 1A 6F 41 0B   6B 06 13 9B 8F 86 71 05  ...g.oA.k.....q.
+00B0: B4 2F 8D 89 66 33 29 76   54 9A 11 F8 27 FA B2 3F  ./..f3)vT...'..?
+00C0: 91 E0 CE 0D 1B F3 30 1A   AD BF 22 5D 1B D3 BF 25  ......0..."]...%
+00D0: 05 4D E1 92 1A 7F 99 9F   3C 44 93 CA D4 40 49 6C  .M......<D...@Il
+00E0: 80 87 D7 04 3A C3 32 52   35 0E 56 F8 A5 DD 7D C4  ....:.2R5.V.....
+00F0: 8B 0D 11 1F 53 CB 1E B2   17 B6 68 77 5A E0 D4 CB  ....S.....hwZ...
+0100: C8 07 AE F5 3A 2E 8E 37   B7 D0 01 4B 43 29 77 8C  ....:..7...KC)w.
+0110: 39 97 8F 82 5A F8 51 E5   89 A0 18 E7 68 7F 5D 0A  9...Z.Q.....h.].
+0120: 2E FB A3 47 0E 3D A6 23   7A C6 01 C7 8F C8 5E BF  ...G.=.#z.....^.
+0130: 6D 80 56 BE 8A 24 BA 33   EA 9F E1 32 11 9E F1 D2  m.V..$.3...2....
+0140: 4F 80 F6 1B 40 AF 38 9E   11 50 79 73 12 12 CD E6  O...@.8..Pys....
+0150: 6C 9D 2C 88 72 3C 30 81   06 91 22 EA 59 AD DA 19  l.,.r<0...".Y...
+0160: 2E 22 C2 8D B9 8C 87 E0   66 BC 73 23 5F 21 64 63  ."......f.s#_!dc
+0170: 80 48 F5 A0 3C 18 3D 94   C8 48 41 1D 40 BA 5E FE  .H..<.=..HA.@.^.
+0180: FE 56 39 A1 C8 CF 5E 9E   19 64 46 10 DA 17 91 B7  .V9...^..dF.....
+0190: 05 80 AC 8B 99 92 7D E7   A2 D8 07 0B 36 27 E7 48  ............6'.H
+01A0: 79 60 8A C3 D7 13 5C F8   72 40 DF 4A CB CF 99 00  y`....\.r@.J....
+01B0: 0A 00 0B 11 95 DA 56 45   03 88 0A 9F 67 D0 D5 79  ......VE....g..y
+01C0: B1 A8 8D 40 6D 0D C2 7A   40 FA F3 5F 64 47 92 CB  ...@m..z@.._dG..
+01D0: 53 B9 BB 59 CE 4F FD D0   15 53 01 D8 DF EB D9 E6  S..Y.O...S......
+01E0: 76 EF D0 23 BB 3B A9 79   B3 D5 02 29 CD 89 A3 96  v..#.;.y...)....
+01F0: 0F 4A 35 E7 4E 42 C0 75   CD 07 CF E6 2C EB 7B 2E  .J5.NB.u....,...
+
+]
+
+

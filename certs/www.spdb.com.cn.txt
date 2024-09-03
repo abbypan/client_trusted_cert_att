@@ -1,0 +1,328 @@
+
+Certificate ripper statistics:
+- Certificate count
+
+  * 3: https://www.spdb.com.cn
+         [cn=spdbcomcn_o=shanghai-pudong-development-bank-co_-ltd_st=上海市_c=cn]
+         [cn=secure-site-ca-g2_ou=wwwdigicertcom_o=digicert-inc_c=us]
+         [cn=digicert-global-root-ca_ou=wwwdigicertcom_o=digicert-inc_c=us]
+
+Certificates for url = https://www.spdb.com.cn
+
+[
+[
+  Version: V3
+  Subject: CN=*.spdb.com.cn, O="Shanghai Pudong Development Bank Co., Ltd.", ST=上海市, C=CN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 19515701680641918904206004042835722681151445124620200747920011959413813066636565331160511378036124804986200850436949358171011462717286890282766707984019853237471078278359894406195679939414662074582181700870151578629743565443791146861979468533723071040294007179117001279051015563215373789377868827822343194304222610928142735530753138058169791455798054735380924402963598795230114198359924641308106102458785278628407021998661676257139985265444072315575154123544833893421065768607863491583548355913448733745518062490597767988102087397896867114293633078831865469312393045430478497906789539789387241873209798014459194543341
+  public exponent: 65537
+  Validity: [From: Tue Jan 09 00:00:00 GMT 2024,
+               To: Sat Feb 08 23:59:59 GMT 2025]
+  Issuer: CN=Secure Site CA G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  SerialNumber: [    099f7b5f 3ef995c0 692453f7 0d0edd07]
+
+Certificate Extensions: 10
+[1]: ObjectId: 1.3.6.1.4.1.11129.2.4.2 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 82 01 6D 04 82 01 69   01 67 00 75 00 4E 75 A3  ...m...i.g.u.Nu.
+0010: 27 5C 9A 10 C3 38 5B 6C   D4 DF 3F 52 EB 1D F0 E0  '\...8[l..?R....
+0020: 8E 1B 8D 69 C0 B1 FA 64   B1 62 9A 39 DF 00 00 01  ...i...d.b.9....
+0030: 8C ED 86 FB B2 00 00 04   03 00 46 30 44 02 20 55  ..........F0D. U
+0040: 6D E2 65 20 08 27 C3 80   67 C0 FF 14 75 FB 2A AE  m.e .'..g...u.*.
+0050: 8A 1D C9 06 32 4A 6B 6E   74 7D 27 63 F3 CD 0F 02  ....2Jknt.'c....
+0060: 20 15 6D EE BA 39 EE 70   A9 D1 C2 9F 5A E2 BC A6   .m..9.p....Z...
+0070: FE 3F 14 89 A7 E5 BC 2F   9A C3 0D CC D6 D4 9C 3D  .?...../.......=
+0080: 0F 00 76 00 7D 59 1E 12   E1 78 2A 7B 1C 61 67 7C  ..v..Y...x*..ag.
+0090: 5E FD F8 D0 87 5C 14 A0   4E 95 9E B9 03 2F D9 0E  ^....\..N..../..
+00A0: 8C 2E 79 B8 00 00 01 8C   ED 86 FB B7 00 00 04 03  ..y.............
+00B0: 00 47 30 45 02 21 00 C7   C5 FF 95 D6 72 8D 06 B5  .G0E.!......r...
+00C0: CB EF BD 39 EE 4D E9 82   59 BC 34 1F 45 C5 55 C4  ...9.M..Y.4.E.U.
+00D0: 2C 26 EA B6 C3 0A A8 02   20 58 EB 15 4A EE 9B C6  ,&...... X..J...
+00E0: 7A 9A 81 C9 71 BF E8 19   7F 2E 72 0E 8C 6F F8 28  z...q.....r..o.(
+00F0: AE EE 02 43 FD F9 E8 23   C1 00 76 00 E6 D2 31 63  ...C...#..v...1c
+0100: 40 77 8C C1 10 41 06 D7   71 B9 CE C1 D2 40 F6 96  @w...A..q....@..
+0110: 84 86 FB BA 87 32 1D FD   1E 37 8E 50 00 00 01 8C  .....2...7.P....
+0120: ED 86 FB E2 00 00 04 03   00 47 30 45 02 21 00 CA  .........G0E.!..
+0130: 58 2F 41 20 54 CF 20 43   80 DC D9 9C 69 EC D2 DD  X/A T. C....i...
+0140: E4 14 AB 13 E2 F9 24 E1   C7 DE DE C3 CD 96 E7 02  ......$.........
+0150: 20 04 62 F8 73 21 9E 66   AF 47 F4 D1 13 0E EE 87   .b.s!.f.G......
+0160: BF CC 90 1C 1C 39 FA 3B   F2 B6 52 A0 D8 9E 62 B6  .....9.;..R...b.
+0170: 87                                                 .
+
+
+[2]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.dcocsp.cn
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: http://crl.digicert-cn.com/SecureSiteCAG2.crt
+]
+]
+
+[3]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: C4 11 7E 88 40 86 C2 41   BF 65 F3 1A E1 B4 53 40  ....@..A.e....S@
+0010: A3 AB EC 7D                                        ....
+]
+]
+
+[4]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[5]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl3.digicert.com/SecureSiteCAG2.crl]
+, DistributionPoint:
+     [URIName: http://crl4.digicert.com/SecureSiteCAG2.crl]
+]]
+
+[6]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1B 68 74 74 70 3A 2F   2F 77 77 77 2E 64 69 67  ..http://www.dig
+0010: 69 63 65 72 74 2E 63 6F   6D 2F 43 50 53           icert.com/CPS
+
+]]  ]
+]
+
+[7]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[8]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+[9]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: *.spdb.com.cn
+  DNSName: spdb.com.cn
+]
+
+[10]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D4 90 AD 8F 0A 16 47 3C   2F 66 F1 72 32 53 8B DE  ......G</f.r2S..
+0010: DE CE 5A 29                                        ..Z)
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 93 95 13 30 67 DE E5 60   03 76 FC 8A 02 06 25 D2  ...0g..`.v....%.
+0010: BD 78 6E AE 82 DF 77 D6   E5 CD 66 1C 69 2D 13 56  .xn...w...f.i-.V
+0020: 77 C0 A4 A5 1A E0 D3 33   10 6F 5D DF 4C F7 FC 7F  w......3.o].L...
+0030: 10 95 71 49 AE D5 62 2A   1B 95 30 55 F6 12 37 3B  ..qI..b*..0U..7;
+0040: 55 ED 22 2C 6B 93 25 DC   93 EC 5E 85 06 12 74 37  U.",k.%...^...t7
+0050: DE A9 4B 3E 9A 8E B4 B9   A0 45 76 A0 41 5A CF 17  ..K>.....Ev.AZ..
+0060: 3B A4 B1 D1 E4 6E BC EF   3E 34 CE F4 78 6F DF 74  ;....n..>4..xo.t
+0070: FA CC 88 03 4B EE F3 4F   B1 92 EB 21 02 AB 28 BA  ....K..O...!..(.
+0080: 5E D8 46 B0 B2 8A 88 8B   8F 5F 9B 5D CD 0A E0 F3  ^.F......_.]....
+0090: D1 8D 7F 2A 71 50 60 EA   8A 61 4D 43 88 A6 4F F9  ...*qP`..aMC..O.
+00A0: 6C 12 46 C6 74 7B 75 8E   CF 86 B0 8F 37 EE E0 88  l.F.t.u.....7...
+00B0: 84 B5 DF 05 4F 02 10 36   CD 39 7B 47 A7 B8 9B 20  ....O..6.9.G... 
+00C0: 6E 6F 06 BE B1 FC E8 AC   20 0A E7 EA DD BD E8 F6  no...... .......
+00D0: 0D 51 C0 F5 1D 72 30 E1   98 2E 7A 1F 42 11 48 8D  .Q...r0...z.B.H.
+00E0: E9 01 14 42 5B 67 E4 1C   45 F0 56 E5 B9 14 68 F6  ...B[g..E.V...h.
+00F0: A5 0C A4 A5 BE F5 79 2E   CF D3 0F 63 DE 0F 74 4D  ......y....c..tM
+
+]
+
+<========== Next certificate for https://www.spdb.com.cn ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=Secure Site CA G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 25213754917107946958087630246195019386647743666426495122070178881187997627224104565707811790351172083866523387791843580561815876298379936112556831662348386576533136873312475660042445006857459606073382495873825513327702916606477726884954055553011839633483163453224769788167113422433714806781021941953426303321607899751149754375619881066452082869615211099185164783179002253060214904074259213763660272475388095374763448506372784041018039924872778040845808932787577095063423712995652376465900659303203143485664256327621909785438214166636786031395217887606708089008290441681646823867877267517766921106019634936809587078489
+  public exponent: 65537
+  Validity: [From: Thu Jun 20 12:21:35 GMT 2019,
+               To: Wed Jun 20 12:21:35 GMT 2029]
+  Issuer: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  SerialNumber: [    087e18fb 8faa927e e8760a0d 8982f512]
+
+Certificate Extensions: 8
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.dcocsp.cn
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.digicert-cn.com/DigiCertGlobalRootCA.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.5.29.32.0]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 73 3A   2F 2F 77 77 77 2E 64 69  ..https://www.di
+0010: 67 69 63 65 72 74 2E 63   6F 6D 2F 43 50 53        gicert.com/CPS
+
+], PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.2
+  qualifier: 0000: 30 7E 0C 7C 41 6E 79 20   75 73 65 20 6F 66 20 74  0...Any use of t
+0010: 68 69 73 20 43 65 72 74   69 66 69 63 61 74 65 20  his Certificate 
+0020: 63 6F 6E 73 74 69 74 75   74 65 73 20 61 63 63 65  constitutes acce
+0030: 70 74 61 6E 63 65 20 6F   66 20 74 68 65 20 52 65  ptance of the Re
+0040: 6C 79 69 6E 67 20 50 61   72 74 79 20 41 67 72 65  lying Party Agre
+0050: 65 6D 65 6E 74 20 6C 6F   63 61 74 65 64 20 61 74  ement located at
+0060: 20 68 74 74 70 73 3A 2F   2F 77 77 77 2E 64 69 67   https://www.dig
+0070: 69 63 65 72 74 2E 63 6F   6D 2F 72 70 61 2D 75 61  icert.com/rpa-ua
+
+]]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[8]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C4 11 7E 88 40 86 C2 41   BF 65 F3 1A E1 B4 53 40  ....@..A.e....S@
+0010: A3 AB EC 7D                                        ....
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 13 EF 25 5B 96 30 22 E8   91 B0 79 F8 81 84 51 55  ..%[.0"...y...QU
+0010: B2 E6 23 2A 56 C1 81 FB   E2 52 17 9D 08 80 2D E5  ..#*V....R....-.
+0020: 2C 52 45 9F 5B B2 80 D0   04 45 D5 E9 77 61 A4 C0  ,RE.[....E..wa..
+0030: 83 CF EB EB 3C 97 79 94   DD 96 19 DD C4 A3 8A BC  ....<.y.........
+0040: EE 4D FA B9 C7 58 90 7A   6B 77 C9 51 19 FA 7B 42  .M...X.zkw.Q...B
+0050: 3E AC 3C CA 57 56 5A 72   FD 95 C7 F6 47 2D 99 B3  >.<.WVZr....G-..
+0060: 6B F6 E9 E0 0C E2 06 B0   CE 88 F9 56 FC AB 63 E8  k..........V..c.
+0070: 02 D0 CC 08 2A EF 43 B2   B6 4F 61 B4 BB A9 05 63  ....*.C..Oa....c
+0080: EE A6 52 43 77 28 46 A9   BF 51 7D 0B D6 73 51 5A  ..RCw(F..Q...sQZ
+0090: D4 7C 17 74 14 22 A0 93   E2 6D F3 1A 62 41 CC 63  ...t."...m..bA.c
+00A0: 7A 53 6C EB F6 AF 33 0A   12 86 70 1C 31 EA C8 2E  zSl...3...p.1...
+00B0: F7 44 8F 49 82 AA A2 5C   7C 34 AC 82 FC 03 5B 8B  .D.I...\.4....[.
+00C0: DC 8A F2 99 71 2B 9B 27   13 A9 B4 A8 CD 0C 22 88  ....q+.'......".
+00D0: 47 DB F9 CC 73 63 CD 98   68 DC DA 2E 92 72 22 CB  G...sc..h....r".
+00E0: 74 4F 64 26 74 30 E7 82   6C 9D D8 B1 26 9B 83 4A  tOd&t0..l...&..J
+00F0: 79 74 6B 70 54 61 5C 30   C5 7E 92 27 F7 70 7B 24  ytkpTa\0...'.p.$
+
+]
+
+<========== Next certificate for https://www.spdb.com.cn ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 28559384442792876273280274398620578979733786817784174960112400169719065906301471912340204391164075730987771255281479191858503912379974443363319206013285922932969143082114108995903507302607372164107846395526169928849546930352778612946811335349917424469188917500996253619438384218721744278787164274625243781917237444202229339672234113350935948264576180342492691117960376023738627349150441152487120197333042448834154779966801277094070528166918968412433078879939664053044797116916260095055641583506170045241549105022323819314163625798834513544420165235412105694681616578431019525684868803389424296613694298865514217451303
+  public exponent: 65537
+  Validity: [From: Fri Nov 10 00:00:00 GMT 2006,
+               To: Mon Nov 10 00:00:00 GMT 2031]
+  Issuer: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  SerialNumber: [    083be056 904246b1 a1756ac9 5991c74a]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: CB 9C 37 AA 48 13 12 0A   FA DD 44 9C 4F 52 B0 F4  ..7.H.....D.OR..
+0010: DF AE 04 F5 79 79 08 A3   24 18 FC 4B 2B 84 C0 2D  ....yy..$..K+..-
+0020: B9 D5 C7 FE F4 C1 1F 58   CB B8 6D 9C 7A 74 E7 98  .......X..m.zt..
+0030: 29 AB 11 B5 E3 70 A0 A1   CD 4C 88 99 93 8C 91 70  )....p...L.....p
+0040: E2 AB 0F 1C BE 93 A9 FF   63 D5 E4 07 60 D3 A3 BF  ........c...`...
+0050: 9D 5B 09 F1 D5 8E E3 53   F4 8E 63 FA 3F A7 DB B4  .[.....S..c.?...
+0060: 66 DF 62 66 D6 D1 6E 41   8D F2 2D B5 EA 77 4A 9F  f.bf..nA..-..wJ.
+0070: 9D 58 E2 2B 59 C0 40 23   ED 2D 28 82 45 3E 79 54  .X.+Y.@#.-(.E>yT
+0080: 92 26 98 E0 80 48 A8 37   EF F0 D6 79 60 16 DE AC  .&...H.7...y`...
+0090: E8 0E CD 6E AC 44 17 38   2F 49 DA E1 45 3E 2A B9  ...n.D.8/I..E>*.
+00A0: 36 53 CF 3A 50 06 F7 2E   E8 C4 57 49 6C 61 21 18  6S.:P.....WIla!.
+00B0: D5 04 AD 78 3C 2C 3A 80   6B A7 EB AF 15 14 E9 D8  ...x<,:.k.......
+00C0: 89 C1 B9 38 6C E2 91 6C   8A FF 64 B9 77 25 57 30  ...8l..l..d.w%W0
+00D0: C0 1B 24 A3 E1 DC E9 DF   47 7C B5 B4 24 08 05 30  ..$.....G...$..0
+00E0: EC 2D BD 0B BF 45 BF 50   B9 A9 F3 EB 98 01 12 AD  .-...E.P........
+00F0: C8 88 C6 98 34 5F 8D 0A   3C C6 E9 D5 95 95 6D DE  ....4_..<.....m.
+
+]
+
+

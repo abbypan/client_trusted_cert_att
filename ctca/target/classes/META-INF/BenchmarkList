@@ -1,0 +1,2 @@
+JMH S 21 com.abbypan.ctca.CTCA S 57 com.abbypan.ctca.jmh_generated.CTCA_benchmarkCTCA_jmhTest S 13 benchmarkCTCA S 3 All I 1 3 A 1 1 1 E I 1 3 T 3 3 s E I 4 1000 T 3 3 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 21 com.abbypan.ctca.CTCA S 60 com.abbypan.ctca.jmh_generated.CTCA_benchmarkDefault_jmhTest S 16 benchmarkDefault S 3 All I 1 3 A 1 1 1 E I 1 3 T 3 3 s E I 4 1000 T 3 3 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 

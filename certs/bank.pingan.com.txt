@@ -1,0 +1,327 @@
+
+Certificate ripper statistics:
+- Certificate count
+
+  * 3: https://bank.pingan.com
+         [cn=bankpingancom_o=平安银行股份有限公司_l=深圳市_st=广东省_c=cn]
+         [cn=geotrust-rsa-cn-ca-g2_o=digicert-inc_c=us]
+         [cn=digicert-global-root-ca_ou=wwwdigicertcom_o=digicert-inc_c=us]
+
+Certificates for url = https://bank.pingan.com
+
+[
+[
+  Version: V3
+  Subject: CN=bank.pingan.com, O=平安银行股份有限公司, L=深圳市, ST=广东省, C=CN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 21242419707042060393160294766352173063421946778939620795255177610828947251681589739579510714160166119624767828579063562251505966525475837744762507799059420480897594606134513408508731729948372183308473546898282041315600664820445057484397065079858917686959511665101224215433977245575194915475969207106090567590947560265871254567892314499250051403869441601823579046760451816904563536815339030573104539226818967863666862630299913777713341827348904316282412436781836935642593653315505983168488134357574991742757317989401822984664007762893847048565737232179892255746881124648961632308244834176060741630171138670569542075093
+  public exponent: 65537
+  Validity: [From: Tue Jun 18 00:00:00 GMT 2024,
+               To: Thu Jul 17 23:59:59 GMT 2025]
+  Issuer: CN=GeoTrust RSA CN CA G2, O=DigiCert Inc, C=US
+  SerialNumber: [    01597a82 09637777 55839516 f7c48cda]
+
+Certificate Extensions: 10
+[1]: ObjectId: 1.3.6.1.4.1.11129.2.4.2 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 82 01 6D 04 82 01 69   01 67 00 76 00 12 F1 4E  ...m...i.g.v...N
+0010: 34 BD 53 72 4C 84 06 19   C3 8F 3F 7A 13 F8 E7 B5  4.SrL.....?z....
+0020: 62 87 88 9C 6D 30 05 84   EB E5 86 26 3A 00 00 01  b...m0.....&:...
+0030: 90 29 58 B8 0F 00 00 04   03 00 47 30 45 02 20 48  .)X.......G0E. H
+0040: D7 71 32 A8 A5 A6 79 49   8C CD 1A 6E 5E 38 CB 02  .q2...yI...n^8..
+0050: 7E B2 54 7B EE CE 01 99   81 A0 50 5D 72 27 84 02  ..T.......P]r'..
+0060: 21 00 CC 50 68 01 52 95   42 CC 9F 38 88 22 14 DE  !..Ph.R.B..8."..
+0070: E1 9B 86 4D 06 73 CF 23   BC E7 26 92 8F 34 0C 04  ...M.s.#..&..4..
+0080: 67 B4 00 75 00 E6 D2 31   63 40 77 8C C1 10 41 06  g..u...1c@w...A.
+0090: D7 71 B9 CE C1 D2 40 F6   96 84 86 FB BA 87 32 1D  .q....@.......2.
+00A0: FD 1E 37 8E 50 00 00 01   90 29 58 B7 B3 00 00 04  ..7.P....)X.....
+00B0: 03 00 46 30 44 02 20 74   9A 87 C2 75 28 FB 34 1D  ..F0D. t...u(.4.
+00C0: BC B2 D4 BA 3C 5D 6D 19   F8 85 5C B3 D6 78 8B D1  ....<]m...\..x..
+00D0: 6F 41 D4 B7 3E 36 4F 02   20 67 05 19 05 9C E6 E0  oA..>6O. g......
+00E0: DD FC 74 35 5D 67 DA F8   52 CE 32 BD 33 05 29 97  ..t5]g..R.2.3.).
+00F0: 71 CA 35 05 EB DD 58 CB   1B 00 76 00 DD DC CA 34  q.5...X...v....4
+0100: 95 D7 E1 16 05 E7 95 32   FA C7 9F F8 3D 1C 50 DF  .......2....=.P.
+0110: DB 00 3A 14 12 76 0A 2C   AC BB C8 2A 00 00 01 90  ..:..v.,...*....
+0120: 29 58 BB ED 00 00 04 03   00 47 30 45 02 20 63 DC  )X.......G0E. c.
+0130: 9F D8 CA EE 65 AD D4 D0   F6 2B 2F 9E C0 01 A7 0F  ....e....+/.....
+0140: FE 51 2C 04 19 3D 2B D1   0B 5C E3 3A 62 72 02 21  .Q,..=+..\.:br.!
+0150: 00 B7 2D 8E F2 D6 44 12   AC AF 72 07 05 28 74 C4  ..-...D...r..(t.
+0160: AC B1 1E EB 57 7D C4 F4   96 6D 4A CB 1C 26 29 7E  ....W....mJ..&).
+0170: 9C                                                 .
+
+
+[2]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.digicert.cn
+, 
+   accessMethod: caIssuers
+   accessLocation: URIName: http://cacerts.digicert.cn/GeoTrustRSACNCAG2.crt
+]
+]
+
+[3]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 24 6F 91 3F 89 87 87 0E   32 C2 40 18 DF C5 4C EB  $o.?....2.@...L.
+0010: 4F C8 49 32                                        O.I2
+]
+]
+
+[4]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[5]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.digicert.cn/GeoTrustRSACNCAG2.crl]
+]]
+
+[6]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1B 68 74 74 70 3A 2F   2F 77 77 77 2E 64 69 67  ..http://www.dig
+0010: 69 63 65 72 74 2E 63 6F   6D 2F 43 50 53           icert.com/CPS
+
+]]  ]
+]
+
+[7]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[8]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+[9]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: bank.pingan.com
+]
+
+[10]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C7 36 6F C8 10 D7 45 7B   70 C5 C2 EE 97 84 F8 DA  .6o...E.p.......
+0010: E8 8B AF 6C                                        ...l
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: CC BF B4 C1 4D C0 B4 02   2F 0A 5E DF 54 54 81 E2  ....M.../.^.TT..
+0010: 60 85 75 C3 4B 6E 11 83   D0 75 33 DC BD BA FD D1  `.u.Kn...u3.....
+0020: 37 C0 B0 4C 65 FF 79 3D   62 D3 F2 46 8E AA D3 F7  7..Le.y=b..F....
+0030: 40 38 8C AE 54 67 5B B9   11 3F A3 98 F5 13 FF 2F  @8..Tg[..?...../
+0040: D4 B7 12 C5 1E 0F C3 75   F2 99 71 3F 9F 5E 5E 9B  .......u..q?.^^.
+0050: 23 4A 18 14 63 D7 31 C5   6A 0A 90 E6 AE 33 D9 69  #J..c.1.j....3.i
+0060: A9 7A E9 58 9F 86 55 45   26 DF 82 42 00 1A 7E 44  .z.X..UE&..B...D
+0070: 42 92 63 1F 27 55 E6 AA   12 0B 8E DA A1 C1 29 D8  B.c.'U........).
+0080: B8 B3 0B 3B 90 97 AD 82   E0 FE D5 D6 6B 4E BD 86  ...;........kN..
+0090: F8 4E 52 A6 1B F9 85 59   F1 04 11 09 96 83 2A 9B  .NR....Y......*.
+00A0: E2 3E 23 3F F5 B6 BF BB   72 74 5A C5 D9 98 78 66  .>#?....rtZ...xf
+00B0: 18 F0 E8 94 30 AB 1D 78   F1 80 46 DA 4B AD 66 44  ....0..x..F.K.fD
+00C0: DB 85 50 93 BB AB 28 64   6A C1 1B 57 D9 2F 19 55  ..P...(dj..W./.U
+00D0: C0 8C 5B 99 06 B6 97 F0   BA 32 40 C7 17 7D EE 7D  ..[......2@.....
+00E0: 88 9D CD BF 09 CF F0 B8   E9 AC 66 A9 96 62 FD A7  ..........f..b..
+00F0: 5A 23 A0 FB 34 25 7D B6   AE C5 39 6A 48 20 07 83  Z#..4%....9jH ..
+
+]
+
+<========== Next certificate for https://bank.pingan.com ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=GeoTrust RSA CN CA G2, O=DigiCert Inc, C=US
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 26283813603631537613717955120092730952422266156874336998373539894119585415544639742639652081992265965150246257669419495351684575196915638607134604260625426980805495450039137699355433815277833984114427861200147606054016589305542434075602270911440310533162749334764376058696355986694692038746142195524721747317073983617474184884663726171006254252345908638981983883628084084113186543329283169597738676522241658540184442945757350123405887867082033589088139659897607201643982563522320169778210207141002277938280873603850376270502203615560713656226188895725029367354495724058146000151971661767314500432531043997426451475419
+  public exponent: 65537
+  Validity: [From: Wed Mar 04 12:04:40 GMT 2020,
+               To: Mon Mar 04 12:04:40 GMT 2030]
+  Issuer: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  SerialNumber: [    0b1362b6 ee6a9d3e 968930f1 6e207d39]
+
+Certificate Extensions: 8
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: ocsp
+   accessLocation: URIName: http://ocsp.digicert.cn
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:0
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://crl.digicert.cn/DigiCertGlobalRootCA.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [2.16.840.1.114412.1.1]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 1C 68 74 74 70 73 3A   2F 2F 77 77 77 2E 64 69  ..https://www.di
+0010: 67 69 63 65 72 74 2E 63   6F 6D 2F 43 50 53        gicert.com/CPS
+
+], PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.2
+  qualifier: 0000: 30 7E 0C 7C 41 6E 79 20   75 73 65 20 6F 66 20 74  0...Any use of t
+0010: 68 69 73 20 43 65 72 74   69 66 69 63 61 74 65 20  his Certificate 
+0020: 63 6F 6E 73 74 69 74 75   74 65 73 20 61 63 63 65  constitutes acce
+0030: 70 74 61 6E 63 65 20 6F   66 20 74 68 65 20 52 65  ptance of the Re
+0040: 6C 79 69 6E 67 20 50 61   72 74 79 20 41 67 72 65  lying Party Agre
+0050: 65 6D 65 6E 74 20 6C 6F   63 61 74 65 64 20 61 74  ement located at
+0060: 20 68 74 74 70 73 3A 2F   2F 77 77 77 2E 64 69 67   https://www.dig
+0070: 69 63 65 72 74 2E 63 6F   6D 2F 72 70 61 2D 75 61  icert.com/rpa-ua
+
+]]  ]
+  [CertificatePolicyId: [2.23.140.1.2.2]
+[]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  serverAuth
+  clientAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[8]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 24 6F 91 3F 89 87 87 0E   32 C2 40 18 DF C5 4C EB  $o.?....2.@...L.
+0010: 4F C8 49 32                                        O.I2
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: B3 91 C5 EA D1 33 74 A1   29 F8 51 E5 E9 14 15 BB  .....3t.).Q.....
+0010: 53 CC EB 1C 12 21 1F D3   17 1C D0 69 F9 8C BF C8  S....!.....i....
+0020: DD 7D D7 7D D4 63 4E 6E   B8 75 C7 69 4D 94 BF 48  .....cNn.u.iM..H
+0030: 71 79 F7 24 8C F7 64 69   7E C0 46 CA 3E 3B 70 2B  qy.$..di..F.>;p+
+0040: EA 77 FB 61 F0 70 0A A4   A9 AA C3 5C 90 A4 FB 28  .w.a.p.....\...(
+0050: AB 5F DC EB 7D E7 06 05   A4 A0 DA EB 88 DC 45 47  ._............EG
+0060: F1 CD 15 A7 9A AD 76 21   5C DC CE A1 C8 B0 8B D4  ......v!\.......
+0070: 65 02 0D C3 F5 07 49 07   16 7A 47 54 9C C8 39 F1  e.....I..zGT..9.
+0080: B4 12 1F 24 E3 C2 48 FD   8D C5 F6 45 44 71 69 56  ...$..H....EDqiV
+0090: 64 AF 5E 70 C6 8F D9 DD   87 68 D8 F5 4A DD A7 C4  d.^p.....h..J...
+00A0: AF 4F EF 72 E1 6F 13 B4   1E 19 78 88 D8 32 5D 56  .O.r.o....x..2]V
+00B0: DD C9 79 F6 AD 67 7A E3   E1 54 D6 D9 A5 19 C0 71  ..y..gz..T.....q
+00C0: 94 89 65 88 52 E7 41 7D   02 91 D0 91 29 94 9F 0C  ..e.R.A.....)...
+00D0: 15 A2 83 87 8F C0 D9 51   09 9D 72 0B BB 58 B0 BD  .......Q..r..X..
+00E0: CD 66 DE 30 9A 3E EC D9   29 DA 07 33 FD 76 DF 86  .f.0.>..)..3.v..
+00F0: F3 9C 92 36 68 07 E1 7C   88 68 1F 0F 74 B4 F3 BE  ...6h....h..t...
+
+]
+
+<========== Next certificate for https://bank.pingan.com ==========>
+
+[
+[
+  Version: V3
+  Subject: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 28559384442792876273280274398620578979733786817784174960112400169719065906301471912340204391164075730987771255281479191858503912379974443363319206013285922932969143082114108995903507302607372164107846395526169928849546930352778612946811335349917424469188917500996253619438384218721744278787164274625243781917237444202229339672234113350935948264576180342492691117960376023738627349150441152487120197333042448834154779966801277094070528166918968412433078879939664053044797116916260095055641583506170045241549105022323819314163625798834513544420165235412105694681616578431019525684868803389424296613694298865514217451303
+  public exponent: 65537
+  Validity: [From: Fri Nov 10 00:00:00 GMT 2006,
+               To: Mon Nov 10 00:00:00 GMT 2031]
+  Issuer: CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+  SerialNumber: [    083be056 904246b1 a1756ac9 5991c74a]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 03 DE 50 35 56 D1 4C BB   66 F0 A3 E2 1B 1B C3 97  ..P5V.L.f.......
+0010: B2 3D D1 55                                        .=.U
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: CB 9C 37 AA 48 13 12 0A   FA DD 44 9C 4F 52 B0 F4  ..7.H.....D.OR..
+0010: DF AE 04 F5 79 79 08 A3   24 18 FC 4B 2B 84 C0 2D  ....yy..$..K+..-
+0020: B9 D5 C7 FE F4 C1 1F 58   CB B8 6D 9C 7A 74 E7 98  .......X..m.zt..
+0030: 29 AB 11 B5 E3 70 A0 A1   CD 4C 88 99 93 8C 91 70  )....p...L.....p
+0040: E2 AB 0F 1C BE 93 A9 FF   63 D5 E4 07 60 D3 A3 BF  ........c...`...
+0050: 9D 5B 09 F1 D5 8E E3 53   F4 8E 63 FA 3F A7 DB B4  .[.....S..c.?...
+0060: 66 DF 62 66 D6 D1 6E 41   8D F2 2D B5 EA 77 4A 9F  f.bf..nA..-..wJ.
+0070: 9D 58 E2 2B 59 C0 40 23   ED 2D 28 82 45 3E 79 54  .X.+Y.@#.-(.E>yT
+0080: 92 26 98 E0 80 48 A8 37   EF F0 D6 79 60 16 DE AC  .&...H.7...y`...
+0090: E8 0E CD 6E AC 44 17 38   2F 49 DA E1 45 3E 2A B9  ...n.D.8/I..E>*.
+00A0: 36 53 CF 3A 50 06 F7 2E   E8 C4 57 49 6C 61 21 18  6S.:P.....WIla!.
+00B0: D5 04 AD 78 3C 2C 3A 80   6B A7 EB AF 15 14 E9 D8  ...x<,:.k.......
+00C0: 89 C1 B9 38 6C E2 91 6C   8A FF 64 B9 77 25 57 30  ...8l..l..d.w%W0
+00D0: C0 1B 24 A3 E1 DC E9 DF   47 7C B5 B4 24 08 05 30  ..$.....G...$..0
+00E0: EC 2D BD 0B BF 45 BF 50   B9 A9 F3 EB 98 01 12 AD  .-...E.P........
+00F0: C8 88 C6 98 34 5F 8D 0A   3C C6 E9 D5 95 95 6D DE  ....4_..<.....m.
+
+]
+
+
